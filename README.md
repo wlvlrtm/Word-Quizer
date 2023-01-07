@@ -1,5 +1,9 @@
 # Word-Quizer
 
+빌드 파일 다운로드
+
+https://drive.google.com/file/d/1KGrK4jjnCySOLC4cH9nYXRN5hrMkVxWo/view?usp=share_link
+
 가장 먼저 해야 할 일은 savefile.json 파일 안에 출력시키고 싶은 단어들을 입력하는 것입니다.
 
 savefile.json은 아래와 같은 위치에 존재합니다.
