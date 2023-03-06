@@ -54,8 +54,13 @@ public class GameManager : MonoBehaviour {
         int index = Random.Range(0, enText.Length);
         this.answerIndex = Random.Range(0, 2);
 
+
         this.answerText = this.krText[index];   // 한국어 답안
         this.enWord.text = this.enText[index];  // 선정된 영어 단어
+
+        
+        Debug.Log("indx: " + index);
+        Debug.Log("answerText: " + this.answerText);
 
         if (this.answerIndex == 0) {      // 1번이 정답
             this.krWord1.text = this.krText[index];
